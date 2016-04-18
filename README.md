@@ -35,7 +35,3 @@ Ex: `123412341234,a123b123c123d123e123f123g123h123,Sample Super Awesome Game`
 * Right-click FunKeyCIAWrapper.ps1 and select "Run with PowerShell".  Wait for the script to run.  Depending on your internet speed, this can take hours.
 
 Once everything finishes, you'll have a folder named CIAs with all of your downloaded games.
-
-### Changelog
-0.1.0
-* Initial release.  It checks for some basic mistakes in the input.csv file, then automates FunKeyCIA.py
