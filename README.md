@@ -25,8 +25,9 @@ It then renames the CIA from the TitleID to a user-specified name, relocates it 
 
 **input.csv**
 
-A template file.  Order is TitleIDs, TitleKeys, User-Friendly Name.  Make sure there are no spaces between the various fields and the commas. Ex:
-`123412341234,a123b123c123d123e123f123g123h123,Sample Super Awesome Game`
+A template file.  Order is TitleIDs, TitleKeys, User-Friendly Name.  Make sure there are no spaces between the various fields and the commas.
+
+Ex: `123412341234,a123b123c123d123e123f123g123h123,Sample Super Awesome Game`
 
 ### How to Use
 * Place both PowerShell script files, along with your 'input.csv' file in the same directory as FunKeyCIA.py
