@@ -26,6 +26,6 @@ Ex: `123412341234,a123b123c123d123e123f123g123h123,Sample Super Awesome Game`
 
 ### How to Use
 * Place 'FunKeyCIAWrapper.py', along with your 'input.csv' file in the same directory as FunKeyCIA.py
-* Go to your command line of choice and type in 'python FunKeyCIAWrapper.py -titles path/to/input.csv'. Wait for the script to run.  Depending on your internet speed, this can take hours.
+* Go to your command line of choice and type in `python FunKeyCIAWrapper.py -titles path/to/input.csv`. Wait for the script to run.  Depending on your internet speed, this can take hours.
 
 Once everything finishes, you'll have a folder named CIAs with all of your downloaded games.
