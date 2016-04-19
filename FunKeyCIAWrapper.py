@@ -25,7 +25,7 @@ f = open(arguments.title_list)
 csv_f = csv.reader(f)
 
 for row in csv_f:
-	print row
+	print ("Building CIA for " + row[2])
 	os.system("python FunKeyCIA.py -title " + row[0] + " -key " + row[1])
 	print(BASEDIR + "/cia/" + row[0] + "/" + row[0] + ".cia", BASEDIR + "/CIAs/" + row[2] + ".cia")
 	shutil.rmtree(BASEDIR + "/cia/" + row[0])
@@ -35,4 +35,5 @@ for row in csv_f:
 	
 
 print ("Processing complete!")
-os.pause();
+raw_input("Press ENTER to exit...")
+os.exit(0)
